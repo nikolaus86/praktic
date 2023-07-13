@@ -1,0 +1,63 @@
+html {
+    background: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#canvas {
+    position: fixed;
+    top: 10%;
+    width: 100%;
+}
+
+#audio1 {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    display: block;
+    z-index: 100;
+}
+
+#fileupload {
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+    color: white;
+    z-index: 100;
+}
+
+.wrapper-main {
+    width: 100%;
+}
+  
+.website-name {
+    margin-left: 20%;
+}
+
+.website-name a {
+    text-decoration: none;
+    color: white;
+}
+  
+.menu {
+    margin-right: 20%;
+}
+
+.menu a {
+    color: white;
+    z-index: 100%;
+}
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        width: 100%;
+    }
+    #canvas {
+        width: 100%;
+    }
+}

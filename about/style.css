@@ -1,0 +1,48 @@
+.wrapper-main {
+    width: 100%;
+}
+
+html {
+    background: black;
+}
+
+header {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about p {
+    color: white;
+}
+
+.website-name {
+    margin-left: 20%;
+}
+
+.website-name a {
+    color: white;
+    text-decoration: none;
+}
+  
+.menu {
+    margin-right: 20%;
+}
+
+.menu a {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        width: 100%;
+    }
+}

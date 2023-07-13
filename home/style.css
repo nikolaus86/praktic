@@ -1,0 +1,45 @@
+.wrapper-main {
+    width: 100%;
+}
+
+html {
+    background: black;
+}
+
+header {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.website-name {
+    margin-left: 20%;
+    color: white;
+}
+  
+.menu {
+    margin-right: 20%;
+}
+
+.menu a {
+    color: white;
+}
+
+#visualizer_types {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#visualizer_types h1 a {
+    margin-right: 40px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        width: 100%;
+    }
+}
